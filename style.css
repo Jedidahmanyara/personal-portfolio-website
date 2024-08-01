@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   margin-top: 1%;
+   height: 100%
+   
+}
+
+.section h1, .section h2, .section h3 {
+  margin-top: 0;
+}
+.hidden-section {
+  display: none;
+}
+#workButton:target ~ #workSection,
+#educationButton:target ~ #educationSection,
+#hobbiesButton:target ~ #hobbiesSection,
+#skillsButton:target ~ #skillsSection {
+  display: inside;
+}
+.button {
+  display: -moz-inline-box;
+  padding: 10px 20px;
+  background-color: #dd151b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.button:hover {
+  background-color: #fd3030;
+}/* CSS to show the targeted section */
+#workSection:target, #educationSection:target, #hobbiesSection:target, #skillsSection:target {
+  display: block;
+}
+
+
+    header {
+    background-color: #1010c2;
+    color: white;
+    padding: 1em 0;
+    } 
+    /*section id home*/
+    h {text-align: end;}
+
+    
+    nav ul {
+    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    }
+    /*section id about*/
+    #skillsButton {
+      padding: 10px 20px;
+      background-color: #1e3853;
+      color: white;
+      border: none;
+      cursor: pointer;
+      ;flex: 1;
+  }
+  
+  #skillsButton:hover {
+      background-color: #0056b3;
+  }
+    nav ul li {
+    margin: 0 1em;
+    }
+    nav ul li a {
+    color: white;
+    text-decoration: none;
+    }
+    main {
+    padding: 2em;
+    }
+   
+      
+    footer {
+    background-color: #c41919;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    }
+    footer ul {
+    list-style: none;
+    padding: 0;
+    }
+    footer ul li {
+    display: inline;
+    margin: 0 0.5em;
+    padding:10}
+    footer ul li a {
+    color: white;
+    text-decoration: none;
+    }
+    html{scroll-behavior: smooth;}
+    /* Responsive Design */
+    @media (max-width: 768px) {
+    nav ul {
+    flex-direction: column;
+    align-items: center;
+    }
+    nav ul li {
+    margin: 0.5em 0;
+    }
+    }
