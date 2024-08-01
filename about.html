@@ -6,7 +6,8 @@
 <title>Personal Portfolio</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body><section class="header"></section>
+    <div class="text box"></div>
 <header  >
 <nav>
 <ul>
@@ -20,34 +21,32 @@
 
 <main>
     <!-- Content will go here -->
-    <div class="section">
-        <a href="#workButton" class="button" id="workButton">Show Work Experience</a>
-        <a href="#educationButton" class="button" id="educationButton">Show Education</a>
-        <a href="#hobbiesButton" class="button" id="hobbiesButton">Show Hobbies</a>
-        <a href="#skillsButton" class="button" id="skillsButton">Show Skills</a>
-    </div>
+   
 
     <div id="workSection" class="show">
-        <h1>WORK EXPERIENCE</h1>
-        <p><b>Data Entry Officer - COSMOS</b><br>Jan 2022 - Jul 2023<br>Nairobi<br>
+        <div class="row">
+            <div class="work experience-col"> 
+                 <h2>WORK EXPERIENCE</h2>
+        <p1><b>Data Entry Officer - COSMOS</b><br>Jan 2022 - Jul 2023<br>Nairobi<br>
         <ol>
             <li>Entering, updating, and ensuring the accuracy of data in databases, spreadsheets, and other software systems.</li>
             <li>Checking data for accuracy and completeness.</li>
             <li>Ensuring the integrity and accuracy of data through routine checks.</li>
             <li>Systematically organizing and maintaining data for easy access.</li>
         </ol>
-        </p>
+        </p1>
         
-        <p><b>Cybersecurity Specialist - Telkom Kenya</b><br>May 2019 – December 2021<br>Nairobi<br>
+        <p2><b>Cybersecurity Specialist - Telkom Kenya</b><br>May 2019 – December 2021<br>Nairobi<br>
         <ol>
             <li>Monitoring and analyzing security systems such as firewalls, intrusion detection systems, and antivirus software, and identifying and responding to security threats.</li>
             <li>Investigating security incidents, breaches, and cyberattacks, and implementing appropriate incident response procedures.</li>
             <li>Conducting vulnerability assessments and penetration testing to identify security weaknesses in systems, networks, and applications.</li>
             <li>Developing, implementing, and maintaining security policies, procedures, and standards to ensure the protection of information assets.</li>
         </ol>
-        </p>
+        </p2>
     </div>
-    
+</div>
+</div>
     <div id="educationSection" class="show">
         <h2>EDUCATION</h2>
         <ol>
@@ -55,9 +54,17 @@
             <li>Maryland Secondary School<br>2012-2015, Nakuru</li>
         </ol>
     </div>
+    <div class="row">
+        <div class="work experience-col">
+
+        </div>
+    </div>
     
     <div id="hobbiesSection" class="show">
-        <h2>HOBBIES</h2>
+        
+            <div class="HOBBIES-col">
+    
+            </div>  <h2>HOBBIES</h2>
         <ol>
             <li>Participating in online forums and communities to share knowledge and collaborate with others in the field.</li>
             <li>Building and tinkering with computers or other electronic gadgets.</li>
@@ -75,15 +82,29 @@
             <li>Experience with relational databases (SQL) and NoSQL databases.</li>
         </ol>
     </div>
+
+    <!-- <footer>
+        <p> 2024 Jedidah Manyara. All Rights Reserved.</p>
+        <ul>
+        <li><a
+        href="https://linkedin.com/in/jedida-manyara-">LinkedIn</a></li>
+        <li><a href="https://github.com/Jedidahmanyara/personal-portfolio-website.git"">GitHub</a></li>
+        <li><a href="https://twitter.com/yourprofile">Twitter</a></li>
+        </ul>
+        </footer> -->
+
+        
+    
 </main>
 <footer>
-<p>&copy; 2024 Jedidah Manyara. All Rights Reserved.</p>
-<ul>
-<li><a
-href="https://linkedin.com/in/yourprofile">LinkedIn</a></li>
-<li><a href="https://github.com/yourprofile">GitHub</a></li>
-<li><a href="https://twitter.com/yourprofile">Twitter</a></li>
-</ul>
-</footer>
+    <p>2024 Your Name. All Rights Reserved.</p>
+    <ul>
+    <li><a
+    href="https://linkedin.com/in/yourprofile">LinkedIn</a></li>
+    <li><a href="https://github.com/yourprofile">GitHub</a></li>
+    <li><a href="https://twitter.com/yourprofile">Twitter</a></li>
+    </ul>
+    </footer>
+
 </body>
 </html>
